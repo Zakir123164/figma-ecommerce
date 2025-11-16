@@ -10,6 +10,7 @@ const App = () => {
     createRoutesFromElements(
       <Route path="/" element={<LayoutOne />}>
         <Route index element={<Home />} />
+        <Route path='/cart' element={<Cart/>}/>
       </Route>
     )
   );
