@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+
+@utility container {
+    margin-inline: auto;
+    padding-inline: 2rem;
+  }
+  
+  @theme {
+    --font-primary: "Satoshi", "sans-serif";
+    --font-secondary: "Integral CF", "sans-serif";
+ 
+  }
+  
