@@ -7,8 +7,10 @@ import logo from "../assets/Images/SHOP.CO.png";
 
 const Navbar = () => {
   return (
-    <section id="ZakirNav" className="flex justify-between items-center p-4">
-      <div className="navlogo">
+    <section id="ZakirNav">
+    <div className="container">
+       <div className="navbar  flex justify-between items-center p-4">
+       <div className="navlogo">
         <img className="bg-white w-[120px]" src={logo} alt="logo" />
       </div>
 
@@ -32,6 +34,8 @@ const Navbar = () => {
         <FiShoppingCart />
         <FaRegUserCircle/>
       </div>
+     </div>
+    </div>
     </section>
   );
 };
