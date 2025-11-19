@@ -76,7 +76,8 @@ const Footer = () => {
                </div>
                <div className="emailInput pr-16">
                 <div>
-               <input className='pl-6 w-[349px] h-12 bg-[#ffffff] rounded-4xl outline-0' type="email" placeholder='Enter your email address' /></div>
+                  <input className='pl-6 w-[349px] h-12 bg-[#ffffff] rounded-4xl outline-0' type="email" placeholder='Enter your email address' />
+               </div>
                 <br />
                 <button className='w-[349px] h-12 bg-[#ffffff] rounded-4xl'>Subscribe to Newsletter</button>
                 </div>
