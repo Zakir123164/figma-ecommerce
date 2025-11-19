@@ -127,9 +127,9 @@ const TopSell = () => {
             <h2 className="mt-4 mb-2 font-semibold text-lg sm:text-xl">FADED SKINNY JEANS</h2>
             <div className="flex gap-1 items-center text-[#FFC633]">
               <ImStarFull /><ImStarFull /><ImStarFull /><ImStarFull />
-              <p className="ml-2 text-sm sm:text-base text-[#000] font-normal">4.5/5</p>
+              <p className="ml-2 text-sm sm:text-base text-[#000000] font-normal">4.5/5</p>
             </div>
-            <h2 className="font-bold text-lg sm:text-xl text-[#000] mt-1">$210</h2>
+            <h2 className="font-bold text-lg sm:text-xl text-[#000000] mt-1">$210</h2>
           </div>
 
         </div>
