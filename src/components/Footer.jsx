@@ -148,16 +148,16 @@ const Footer = () => {
                 <h2 className='font-medium text-sm sm:text-base text-[#000000] tracking-widest mb-4'>{section}</h2>
                 <ul className='flex flex-col gap-2 sm:gap-3 text-[#00000080] text-sm sm:text-base'>
                   {section === "COMPANY" && ["About", "Features", "Works", "Career"].map(item => (
-                    <li key={item}><a href="#" className='hover:text-[#000] transition'>{item}</a></li>
+                    <li key={item}><a href="#" className='hover:text-[#000000] transition'>{item}</a></li>
                   ))}
                   {section === "HELP" && ["Customer Support", "Delivery Details", "Terms & Condition", "Privacy Policy"].map(item => (
-                    <li key={item}><a href="#" className='hover:text-[#000] transition'>{item}</a></li>
+                    <li key={item}><a href="#" className='hover:text-[#0000000] transition'>{item}</a></li>
                   ))}
                   {section === "FQA" && ["Account", "Manage Deliveries", "Orders", "Payments"].map(item => (
-                    <li key={item}><a href="#" className='hover:text-[#000] transition'>{item}</a></li>
+                    <li key={item}><a href="#" className='hover:text-[#000000] transition'>{item}</a></li>
                   ))}
                   {section === "RESOURCES" && ["Free eBooks", "Development Tutorial", "How to- Blog", "Youtube Playlist"].map(item => (
-                    <li key={item}><a href="#" className='hover:text-[#000] transition'>{item}</a></li>
+                    <li key={item}><a href="#" className='hover:text-[#000000] transition'>{item}</a></li>
                   ))}
                 </ul>
               </div>
@@ -173,7 +173,7 @@ const Footer = () => {
           </h2>
           <div className="flex flex-col sm:flex-row gap-3 w-full md:w-auto">
             <input type="email" placeholder="Enter your email address"
-              className="w-full md:w-72 h-10 sm:h-12 px-4 rounded-full outline-none text-black text-sm sm:text-base" />
+              className="w-full md:w-72 h-10 sm:h-12 px-4 rounded-full outline-none text-black text-sm sm:text-base  bg-[#ffffff]J" />
             <button className="w-full md:w-auto h-10 sm:h-12 px-6 bg-white text-black font-semibold rounded-full">
               Subscribe
             </button>

@@ -79,7 +79,7 @@ const Arrival = () => {
     <>
       <div className="Arrivals px-4 md:px-6 lg:px-10 py-10">
         <div className="container mx-auto">
-          <div className="ArrivalHeading mt-[50px] md:mt-[72px] mb-[40px] md:mb-[55px] text-center text-3xl md:text-4xl lg:text-[48px] font-bold font-secondary">
+          <div className="ArrivalHeading mt-[50px] md:mt-[72px] mb-10 md:mb-[55px] text-center text-3xl md:text-4xl lg:text-[48px] font-bold font-secondary">
             <h1>NEW ARRIVALS</h1>
           </div>
 
